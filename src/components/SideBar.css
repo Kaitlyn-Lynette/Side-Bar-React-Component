@@ -1,3 +1,12 @@
 .button-brand {
     background-color: white
 }
+
+.nav-pages {
+    list-style-type: none;
+}
+
+.nav-pages li {
+    padding: 10px;
+
+}

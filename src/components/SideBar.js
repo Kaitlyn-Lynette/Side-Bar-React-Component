@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Offcanvas from 'react-bootstrap/Offcanvas'
 import Button from 'react-bootstrap/Button'
+import './SideBar.css'
 
 
 const SideBar = () => {
@@ -21,7 +22,7 @@ const SideBar = () => {
           <Offcanvas.Title>Jane Doe</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <ul>
+          <ul className="nav-pages">
               <li>My Story</li>
               <li>My Writing</li>
               <li>Resume/CV</li>
