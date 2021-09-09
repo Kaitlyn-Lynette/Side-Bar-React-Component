@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Offcanvas from 'react-bootstrap/Offcanvas'
-import Button from 'react-bootstrap/Button'
+// import Button from 'react-bootstrap/Button'
 import './SideBar.css'
 
 
@@ -13,9 +13,10 @@ const SideBar = () => {
 
     return (
         <>
-      <Button variant="link" onClick={handleShow}>
-        <h1>Jane Doe</h1> 
-      </Button>
+    
+    <div className="header">
+      <h1 onClick={handleShow}>Jane Doe</h1>  
+    </div>
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>

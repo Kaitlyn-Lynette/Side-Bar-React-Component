@@ -1,5 +1,6 @@
-.button-brand {
-    background-color: white
+.btn-style {
+    background-color: white;
+    border: none;
 }
 
 .nav-pages {
@@ -10,3 +11,8 @@
     padding: 10px;
 
 }
+
+.header {
+    padding-top: 20px;
+}
+
